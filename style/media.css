@@ -1,0 +1,313 @@
+@media(max-width: 1320px) {
+
+    .header__section {
+        grid-template-columns: 40% 58%;
+        grid-template-rows: repeat(2, 2fr);
+    }
+
+    .nav__items::after {
+        left: 5px;
+        width: 98%;
+    }
+
+    .nav__items {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .nav__links {
+        justify-content: center;
+    }
+
+    .nav__btns {
+        justify-content: center;
+    }
+
+    .pierre {
+        flex-direction: column;
+        padding: 80px 0 50px 0;
+    }
+
+    .diadema {
+        flex-direction: column;
+
+    }
+
+    .military {
+        flex-direction: column;
+        padding: 80px 0 50px 0;
+    }
+
+    .pierre img {
+        padding: 0;
+    }
+
+    .military img {
+        padding: 0;
+    }
+
+    .first__header::after {
+        left: 5px;
+        width: 98%;
+    }
+
+    .second__header::after {
+        left: 5px;
+        width: 98%;
+    }
+
+    .advices {
+        grid-template-columns: 636px;
+        justify-content: center;
+    }
+
+    .main__cards {
+        grid-template-columns: 416px 416px;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 992px) {
+
+    .nav__links {
+        flex-direction: column;
+    }
+
+    .main__cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer__items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__card {
+        padding: 35px;
+    }
+
+}
+
+@media(max-width: 800px) {
+
+    .advices{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .cartier::after {
+        padding: 10px 30px;
+    }
+
+    .piguet::after {
+        padding: 10px 30px;
+    }
+
+    .tag::after {
+        padding: 10px 30px;
+    }
+
+    .duchen::after {
+        padding: 10px 30px;
+    }
+
+    .lannier::after {
+        padding: 10px 30px;
+    }
+
+    .tiamo::after {
+        padding: 10px 30px;
+    }
+
+    .space::after {
+        padding: 10px 30px;
+    }
+
+    .jl::after {
+        padding: 10px 30px;
+    }
+
+
+    .header__section{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .pierre{
+        grid-row: 1 / 1;
+        flex-direction: row;
+    }
+
+    .military{
+        grid-row: 2 / 2;
+        flex-direction: row;
+    }
+
+    .diadema{
+        flex-direction: row;
+        grid-column: 1 / 1;
+    }
+
+    .goods{
+        gap: 20px;
+    }
+
+    .diadema img{
+        max-width: 250px;
+    }
+}
+
+@media(max-width: 768px){
+    .cartier::after {
+        padding: 7px 18px;
+    }
+
+    .piguet::after {
+        padding: 7px 18px;
+    }
+
+    .tag::after {
+        padding: 7px 18px;
+    }
+
+    .duchen::after {
+        padding: 7px 18px;
+    }
+
+    .lannier::after {
+        padding: 7px 18px;
+    }
+
+    .tiamo::after {
+        padding: 7px 18px;
+    }
+
+    .space::after {
+        padding: 7px 18px;
+    }
+
+    .jl::after {
+        padding: 7px 18px;
+    }
+
+    .title__price_main{
+        font-size: 15px;
+        
+    }
+
+    .title__price{
+        margin-bottom: 50px;
+    }
+
+    .section__name{
+        font-size: 15px;
+    }
+
+    .cards__icons{
+        bottom: 20px;
+        flex-direction: row;
+        right: auto;
+        top: auto;
+    }
+
+    .cards__icons a{
+        padding: 10px;
+    }
+
+    .name__grand{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 680px){
+    .main__cards{
+        grid-template-columns: 1fr;
+    }
+
+    .first__advice{
+        padding: 90px 50px 40px 50px;
+    }
+    .first__advice::before{
+        padding: 10px 25px;
+        font-size: 15px;
+        
+    }
+    .second__advice::before{
+        padding: 10px 25px;
+        font-size: 15px;
+
+    }
+    .second__advice{
+        padding: 90px 50px 40px 50px;
+    }
+
+    .advice__text{
+        font-size: 15px;
+    }
+    .advice__title{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media(max-width: 576px) {
+    .pierre {
+        flex-direction: column;
+        padding: 80px 0 50px 0;
+    }
+    .diadema {
+        flex-direction: column;
+        padding: 80px 0 50px 0;
+    }
+    .military {
+        flex-direction: column;
+        padding: 80px 0 50px 0;
+    }
+
+    .goods{
+        max-width: 320px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__one{
+        font-size: 25px;
+    }
+    .header__two{
+        font-size: 25px;
+    }
+
+    .footer__links{
+        align-items: center;
+    }
+
+    .footer__subtitle{
+        text-align: center;
+    }
+    
+    .social__icons{
+        justify-content: center;
+    }
+
+    .contacts{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__links p{
+        text-align: center;
+    }
+
+    .footer__items{
+        gap: 100px;
+    }
+}
+
+@media(max-width: 375px) {
+    
+}
+
+@media(max-width: 320px) {}
